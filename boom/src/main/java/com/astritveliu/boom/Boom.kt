@@ -12,8 +12,8 @@ class Boom(view: View) {
     init {
         this.view = WeakReference(view)
         if (this.view.get() != null) {
-            if (!this.view.get()!!.hasOnClickListeners()) {
-                this.view.get()!!.setOnClickListener{ }
+            if (!this.view.get()?.hasOnClickListeners()!!) {
+                this.view.get()?.setOnClickListener{ }
             }
         }
         explode()
@@ -29,13 +29,13 @@ class Boom(view: View) {
                 MotionEvent.ACTION_CANCEL -> {
                     v.animate().cancel()
                     animate(v, 1)
-                    return@OnTouchListener true
+                    true
                 }
                 MotionEvent.ACTION_UP -> {
                     v.animate().cancel()
                     animate(v, 2)
                     animate(v, 3)
-                    return@OnTouchListener false
+                    false
                 }
             }
             false

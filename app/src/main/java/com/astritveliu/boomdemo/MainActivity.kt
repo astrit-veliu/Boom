@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         Boom(cardview)
         Boom(img_launcher)
         Boom(txt_header)
-        Boom(material_text_button as View)
+        Boom((material_text_button as? View)!!)
 
         txt_header.setOnClickListener { Toast.makeText(this,"Clicked",Toast.LENGTH_LONG).show() }
     }

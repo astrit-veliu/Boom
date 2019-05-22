@@ -1,4 +1,4 @@
-# Boom :star:
+# Boom ⭐
 ![license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16) <br>
 
@@ -9,7 +9,7 @@ A lightweight library written in Kotlin to implement elastic touch effect in you
 ## Including in your project
 [![](https://jitpack.io/v/astrit-veliu/Boom.svg)](https://jitpack.io/#astrit-veliu/Boom)
 
-#### build.gradle
+### build.gradle
 
 Add `jitpack` maven in your root build.gradle at the end of repositories:
 ```gradle
@@ -31,21 +31,20 @@ dependencies {
 ## Usage
 `Boom` is really easy to use and gives to your Views a beautiful touch effect.
 
-
-#### Kotlin
+### Kotlin
 Some of material widgets needs to be casted to View, otherwise it will show `Type mismatch` warning.
 ```kotlin
   Boom(txt_header)
   Boom(material_text_button as View)
 ```
-#### Java
+### Java
 After views are binded simply pass the name of widget to Boom constructor. 
 ```java
   new Boom(txt_header);
   new Boom(material_text_button);
 ```
 
-## Supports :heart:
+## Supports ❤
 Feel free to give your support by contributing to this library. <br><br>
 
 # License
