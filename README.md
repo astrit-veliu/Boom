@@ -1,5 +1,6 @@
 # Boom ⭐
 ![license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fdcf022a3ffc4f8bb643f06a657c7604)](https://app.codacy.com/app/astrit-veliu/Boom?utm_source=github.com&utm_medium=referral&utm_content=astrit-veliu/Boom&utm_campaign=Badge_Grade_Dashboard)
 [![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16) <br>
 
 A lightweight library written in Kotlin to implement elastic touch effect in your project.
