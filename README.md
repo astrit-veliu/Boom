@@ -7,20 +7,24 @@ A lightweight library written in Kotlin to implement elastic touch effect in you
 ![gif0](https://user-images.githubusercontent.com/16231428/58156715-06e2f380-7c77-11e9-8c33-e51b93c4cb6f.gif)
 
 ## Including in your project
-
+[![](https://jitpack.io/v/astrit-veliu/Boom.svg)](https://jitpack.io/#astrit-veliu/Boom)
 
 #### build.gradle
-Add this line to your app `build.gradle` file (not your project build.gradle file).
+
+Add `jitpack` maven in your root build.gradle at the end of repositories:
 ```gradle
-dependencies {
-    implementation "url"
-}
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
 ```
 
-Don't forget to include `jcenter()` in project level `build.gradle`.
+Add the dependency to your app `build.gradle` file (not your project build.gradle file).
 ```gradle
-repositories {
-    jcenter()
+dependencies {
+   implementation 'com.github.astrit-veliu:Boom:1.0'
 }
 ```
 
