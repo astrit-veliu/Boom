@@ -1,13 +1,35 @@
-# Boom ⭐
+<img src="https://user-images.githubusercontent.com/16231428/59336971-e0592b00-8cff-11e9-89fd-145293c40c81.png">
+
+<img align="left" src="https://user-images.githubusercontent.com/16231428/58156715-06e2f380-7c77-11e9-8c33-e51b93c4cb6f.gif" width="260" height="460" /></a>
+<a href="https://github.com/astrit-veliu/Boom">
+
+<p><h1 align="left">Boom ⭐</h1></p>
+
+<h4>A lightweight library written in Kotlin to implement elastic touch effect in your project.</h4>
+
+
+___
+
+## Supports ❤
+<p><h6>Feel free to give your support by contributing to this library. Buy me a beer!</h6>
+<a href="https://paypal.me/AstritVeliu" >
+<img src="https://img.shields.io/badge/Donate-PayPal-blue.svg" width="130" height="22"></a>
+</p>
+<p><h6>Follow me on Github for upcoming repositories:</h6>
+<a href="https://github.com/astrit-veliu" >
+<img src="https://user-images.githubusercontent.com/16231428/59339358-5069b000-8d04-11e9-9584-795700af65a0.PNG" width="140" height="32"></a></p>
+</br>
+
 ![license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fdcf022a3ffc4f8bb643f06a657c7604)](https://app.codacy.com/app/astrit-veliu/Boom?utm_source=github.com&utm_medium=referral&utm_content=astrit-veliu/Boom&utm_campaign=Badge_Grade_Dashboard)
-[![API](https://img.shields.io/badge/API-16%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=16) <br>
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Boom-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7684) 
+<br>
 
-A lightweight library written in Kotlin to implement elastic touch effect in your project.
+## Requirements
+- Api 16+
+- Android SDK
 
-![gif0](https://user-images.githubusercontent.com/16231428/58156715-06e2f380-7c77-11e9-8c33-e51b93c4cb6f.gif)
-
-## Including in your project
+## Installation
 [![](https://jitpack.io/v/astrit-veliu/Boom.svg)](https://jitpack.io/#astrit-veliu/Boom)
 
 ### build.gradle
@@ -28,6 +50,7 @@ dependencies {
    implementation 'com.github.astrit-veliu:Boom:1.0'
 }
 ```
+​
 
 ## Usage
 `Boom` is really easy to use and gives to your Views a beautiful touch effect.
@@ -45,10 +68,11 @@ After views are binded simply pass the name of widget to Boom constructor.
   new Boom(material_text_button);
 ```
 
-## Supports ❤
-Feel free to give your support by contributing to this library. <br><br>
+## 📄 License
 
-# License
+Boom is released under the MIT license.
+See [LICENSE](./LICENSE) for details.
+
 ```xml
 MIT License
 
