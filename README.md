@@ -7,7 +7,6 @@
 
 <h4>A lightweight library written in Kotlin to implement elastic touch effect in your project.</h4>
 
-
 ___
 
 ## Supports ❤
