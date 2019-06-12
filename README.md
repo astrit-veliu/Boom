@@ -22,7 +22,9 @@ ___
 
 ![license](https://img.shields.io/badge/license-MIT%20License-blue.svg)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/fdcf022a3ffc4f8bb643f06a657c7604)](https://app.codacy.com/app/astrit-veliu/Boom?utm_source=github.com&utm_medium=referral&utm_content=astrit-veliu/Boom&utm_campaign=Badge_Grade_Dashboard)
-[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Boom-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7684) 
+[![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Boom-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/7684)
+[![CircleCI](https://circleci.com/gh/astrit-veliu/Boom.svg?style=svg)](https://circleci.com/gh/astrit-veliu/Boom) 
+[![](https://jitpack.io/v/astrit-veliu/Boom.svg)](https://jitpack.io/#astrit-veliu/Boom)
 <br>
 
 ## Requirements
@@ -30,7 +32,6 @@ ___
 - Android SDK
 
 ## Installation
-[![](https://jitpack.io/v/astrit-veliu/Boom.svg)](https://jitpack.io/#astrit-veliu/Boom)
 
 ### build.gradle
 
