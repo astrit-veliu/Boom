@@ -27,10 +27,6 @@ ___
 [![](https://jitpack.io/v/astrit-veliu/Boom.svg)](https://jitpack.io/#astrit-veliu/Boom)
 <br>
 
-## Requirements
-- Api 16+
-- Android SDK
-
 ## Installation
 
 ### build.gradle
