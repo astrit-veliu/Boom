@@ -44,7 +44,7 @@ allprojects {
 Add the dependency to your app `build.gradle` file (not your project build.gradle file).
 ```gradle
 dependencies {
-   implementation 'com.github.astrit-veliu:Boom:1.1'
+   implementation 'com.github.astrit-veliu:Boom:v1.1'
 }
 ```
 
