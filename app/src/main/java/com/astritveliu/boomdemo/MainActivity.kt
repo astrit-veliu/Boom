@@ -1,26 +1,34 @@
 package com.astritveliu.boomdemo
 
-
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.view.View
 import android.widget.Toast
 import com.astritveliu.boom.Boom
-import kotlinx.android.synthetic.main.activity_main.*
+import com.astritveliu.boom.utils.BoomUtils
+import com.astritveliu.boom.utils.boom
+import com.astritveliu.boom.utils.removeBoom
+import com.astritveliu.boomdemo.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+  private lateinit var binding: ActivityMainBinding
 
-        supportActionBar?.hide()
+  override fun onCreate(savedInstanceState: Bundle?) {
+    super.onCreate(savedInstanceState)
+    binding = ActivityMainBinding.inflate(layoutInflater)
+    setContentView(binding.root)
 
-        Boom(cardview)
-        Boom(img_launcher)
-        Boom(txt_header)
-        Boom((material_text_button as? View)!!)
+    supportActionBar?.hide()
 
-        txt_header.setOnClickListener { Toast.makeText(this,"Clicked",Toast.LENGTH_LONG).show() }
+    with(binding) {
+      Boom(cardview)
+      imgLauncher.boom(true) //ripple effect is optional, by default is set to false
+      BoomUtils.boomAll(txtHeader, materialTextButton)
+
+      materialTextButton.setOnClickListener {
+        it.removeBoom()
+        Toast.makeText(applicationContext, "Removed BOOM", Toast.LENGTH_LONG).show()
+      }
     }
+  }
 }
